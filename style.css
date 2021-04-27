@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    border: 1px solid black;
+    font-size: 10rem;
+    background-color: yellow;
+    height: 25vh;
+}
+.page-body{
+    height: 75vh;
+    background-image: url("3.jpg");
+    background-color: aqua;
+    padding-top: 7.5vh;
+}
+.login-box{
+    height: 60vh;
+    width: 30vw;
+    background-color:rgb(232, 250, 215);
+    margin-left: 35vw;
+    border: 1px solid black;
+    border-radius: 3px;
+    /* margin-top: 7.5vh; */
+}
+.small-container{
+    display: flex;
+}
+
+.btn{
+    height:10vh;
+    width:15vw;
+    border: 1px solid black;
+    background-color:rgb(232, 250, 215);
+    border-radius: 3px;
+}
+.login-span,.signup-span{
+    display: block;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.username{
+    margin-top: 10vh;
+    height: 5vh;
+    width: 26vw;
+    border: 1px solid black;
+    margin-left: 2vw;
+    text-align: center;
+    padding-top: 1vh;
+    border-radius: 3px;
+    background-color: white;
+}
+.password{
+    margin-top: 5vh;
+    height:5vh;
+    width: 26vw;
+    border: 1px solid black;
+    margin-left: 2vw;
+    text-align: center;
+    padding-top: 1vh;
+    border-radius: 3px;
+    background-color: white;
+}
+.submit{
+    margin-left: 2vw;
+    margin-top: 10vh;
+    height: 5vh;
+    width: 8vw;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 1vh;
+    background-color: rgb(172, 241, 60)
+}
+.submit:hover{
+    background-color: rgb(96, 241, 60);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(215, 250, 222);
+    cursor: pointer;
+}
+.filter{
+    height: 60vh;
+    width: 40vw;
+    border: 1px solid black;
+    margin-left: 30vw;
+    margin-top: 10vh;
+    box-shadow: 0px 0px 50px 5px gray;
+    border-radius: 3px;
+    
+    
+}
+.options{
+   height: 40vh;
+   width: 30vw;
+   margin-top: 10vh;
+   margin-left: 5vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   border: 1px solid black;
+   padding-top: 2vh;
+   padding-bottom: 2vh;
+   border-radius: 3px;
+}
+.category{
+    width: 20vw;
+    height: 5vh;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    margin-left: 5vw;
+    border-radius: 3px;
+    text-align: center;
+}
+.category:hover{
+    cursor: pointer;
+    background-color: rgb(250, 217, 215);
+}
+.welcome-container{
+    background-image: url("1.jpg");
+    padding-top: 2rem;
+   
+}
+.welcome-msg{
+    text-align: center;
+}
